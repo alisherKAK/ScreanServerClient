@@ -1,0 +1,17 @@
+﻿<Window x:Class="ScreanClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScreanClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="serverIpTextBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Ip" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="serverPortTextBox" HorizontalAlignment="Left" Height="23" Margin="135,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Port" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="getSreenButton" Click="GetSreenButtonClick" Content="Get date" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image Name="serverSreenImage" HorizontalAlignment="Left" Height="315" Margin="10,69,0,0" VerticalAlignment="Top" Width="772"/>
+    </Grid>
+</Window>
